@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>ncc</title>
+    </head>
+<body>
+    photo:<input type="file" id="photo"><br>
+    <input type="submit" value="ok" onclick="validate()">
+    </body>
+    </html>
+    <script>
+        function validate(){
+        var photo=document.getElementById("photo").value;
+        var file=photo.substr(-4);
+       if(file!=".jpg"){
+        alert("invalid photo");
+       }
+       else{
+        alert("success");
+       }
+        }
+    </script>

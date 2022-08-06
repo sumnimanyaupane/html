@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>ncc</title>
+    </head>
+    <body>
+        Gender:<input type="radio" name ="gender" value="male" id="male">male
+        <input type="radio" name ="gender" value="male" id="female">female
+        <br>
+        <input type="submit" value="ok" onclick="validate()">
+    </body>
+    <script>
+        function validate(){
+           var m=document.getElementById("male").checked;
+           var f=document.getElementById("female").checked;
+           if(!(m||f)){
+            alert("gender is required");
+           }
+           else{
+            alert("success");
+           }
+        }
+   </script>
+</html>

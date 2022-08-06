@@ -1,0 +1,28 @@
+<!--
+	WAP to create a register form that contains:
+1. text box for name and username
+2. a field for password (not less than 6 char)
+3. a field for email
+4. a field for image
+-->
+
+<html>
+<head>
+<title>Form</title>
+<body>
+	<form action="#" method="post">
+		Name:<input type="text" name="name"><br>
+		Username:<input type="text" name="username"><br>
+		Password:<input type="password" name="password" pattern=".{6,}"><br>
+		Email:<input type="email" name="email"><br>
+		Image:<input type="file" name="photo upload" enctype="multipart/form-data"><br>
+		<textarea></textarea><br>
+
+		<input type="submit" value="OK">
+	</form>
+</body>
+</head>
+</html>
+
+
+

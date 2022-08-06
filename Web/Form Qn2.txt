@@ -1,0 +1,25 @@
+
+<html>
+<head>
+<title>Form</title>
+<body>
+	<form action="#">
+		Name:<input type="text" name="name" required="required"><br>
+		Symbol No.:<input type="number" value="NCC"><input type="number" value="NCC"><input type="text" value="BIM"><input type="number" value="2019">
+
+		Country:<select value="Country"><br>
+			<option value="">Please select a country</option><br>
+			<option value="">India</option><br>
+			<option value="" selected="selected">Nepal</option><br>
+			<option value="">Pakistan</option><br>
+			</select><br>
+		Gender:<input type="radio" name="gender">Male
+			<input type="radio" name="gender">FeMale<br>
+		<input type="submit" value="OK">
+	</form>
+</body>
+</head>
+</html>
+
+
+

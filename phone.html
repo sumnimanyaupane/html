@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>ncc</title>
+    </head>
+    <body>
+        phone:<input type="text" id="phone"><br>
+        <input type="submit" value="ok" onclick="validate()">
+    </body>
+    <script>
+         function validate(){
+            var pattern=/^[9][7-8][0-9]+$/;
+            if(!phone.match(pattern)){
+                alert("invalid name");
+            }
+            else{
+                alert("success");
+            }
+            
+         }
+    </script>
+</html>

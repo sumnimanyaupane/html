@@ -1,0 +1,10 @@
+Attributes used in images
+
+<img> (Singular tag)
+src=source of the images
+alt=alternative text when the images is not found.
+height= defines the height of the images.
+width= defines the width of the images.
+
+ismap: server-side
+usemap: client-side

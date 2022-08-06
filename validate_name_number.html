@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>ncc</title>
+    </head>
+    <body>
+        <form type="get">
+            1.Name<input type="text" id="name"><br>
+            2.Number:<input type="text" id="number"><br>
+            <input type="submit" value="ok" onclick="validate()">
+        </form>
+    </body>
+    <script>
+        function validate(){
+        var name=document.getElementById("name").value;
+        var number=document.getElementById("number").value;
+        var pattern=/^[a-zA-Z]+$/;
+        var pattern=/^[0-9]+$/;
+        if(!(name&&number)){
+            alert("all fields are required");
+        }
+       else if(name.length>6){
+                alert("name must be less than 6");
+       }
+       else if(name.match(pattern)){
+                alert("invalid name");
+            }
+           else if(name.match(pattern)){
+                alert("invalid number");
+            }
+           else if(!number.match(pattern)){
+                alert("invalid number");
+            }
+else{
+    alert("matched");
+}
+        }
+    </script>
+</html>

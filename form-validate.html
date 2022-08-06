@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <title>ncc</title>
+    </head>
+    <body>
+        Name:<input type="text" id="name"><br>
+        Number:<input type="text" id="number"><br>
+        Country:  <select name ="country"  id="country">
+            <option value=" ">Please select</option>
+            <option value="nepal" >Nepal </option>
+            <option value="netharland ">Netharland</option>
+            <option value="Kubet ">Kubet</option>
+            </select><br>
+        <!-- email:<input type="email" id="email"><br> -->
+        Gender:<input type="radio" name ="gender" value="male" id="male">male
+<input type="radio" name ="gender" value="male" id="female">female
+<br>
+hobbies:<input type="checkbox" name ="hobbies" value="cricket" id="cr">cricket
+<input type="checkbox" name ="hobbies" value="swimming" id="sw">swimming
+<br>
+<input type="submit" value="ok" onclick="validate()">
+    </body>
+    <script>
+        function validate(){
+            var name=document.getElementById("name").value;
+            var number=document.getElementById("number").value;
+            var country=document.getElementById("country").value;
+            // var email=document.getElementById("email").value;
+            var m=document.getElementById("male").checked;
+           var f=document.getElementById("female").checked;
+           var c=document.getElementById("cr").checked;
+           var s=document.getElementById("sw").checked;
+           var pattern=/^[a-zA-Z]+$/;
+        var pattern=/^[0-9]+$/;
+         if(name.match(pattern)){
+                alert("invalid name");
+            }
+           else if(name.match(pattern)){
+                alert("invalid number");
+            }
+           else if(!number.match(pattern)){
+                alert("invalid number");
+            }
+           else if(country==" "){
+                    alert("country must be selected");
+                }
+               else if(!(m||f)){
+            alert("gender is required");
+           }
+          else if(!(c||s)){
+            alert("hobbies is required");
+           }
+           else{
+            alert("success");
+           }
+
+        }
+    </script>
+</html>

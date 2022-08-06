@@ -1,0 +1,108 @@
+<html>
+<head>
+	<title>NCC</title>
+	<body>
+		<table border=1 cellspacing=0 cellpadding=5>
+		<thead>
+			<tr>
+			<th>SN</th>
+			<th>Table1</th>
+			<th>Row1, Column1</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+			<td>1</td>
+			<td>
+				<table border=1 cellspacing=0 cellpadding=5>
+				<thead>
+					<tr>
+					<th>SN</th>
+					<th>Place</th>
+					<th>Phone</th>
+					<th>Area</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+					<td>1</td>
+					<td>Lalitpur</td>
+					<td>44665646</td>
+					<td>Patan</td>
+					</tr>
+					<tr>
+					<td>1</td>
+					<td>Lalitpur</td>
+					<td>44665646</td>
+					<td>Patan</td>
+					</tr>
+					<tr>
+					<td>1</td>
+					<td>Lalitpur</td>
+					<td>44665646</td>
+					<td>Patan</td>
+					</tr>
+					<tr>
+					<td>1</td>
+					<td>Lalitpur</td>
+					<td>44665646</td>
+					<td>Patan</td>
+					</tr>
+					<tr>
+					<td>1</td>
+					<td>Lalitpur</td>
+					<td>44665646</td>
+					<td>Patan</td>
+					</tr>
+				</tbody>
+				</table>
+			</td>
+			<td>Row1, Column1</td>
+			</tr>
+			<tr>
+			<td>2</td>
+			<td>
+				<table border=1 cellspacing=0 cellpadding=5>
+				<thead>
+					<tr>
+					<th>SN</th>
+					<th>Place</th>
+					<th>Phone</th>
+					<th>Area</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+					<td>1</td>
+					<td>Lalitpur</td>
+					<td>44665646</td>
+					<td>Patan</td>
+					</tr>
+					<tr>
+					<td>1</td>
+					<td>Lalitpur</td>
+					<td>44665646</td>
+					<td>Patan</td>
+					</tr>
+					<tr>
+					<td>1</td>
+					<td>Lalitpur</td>
+					<td>44665646</td>
+					<td>Patan</td>
+					</tr>
+					<tr>
+					<td>1</td>
+					<td>Lalitpur</td>
+					<td>44665646</td>
+					<td>Patan</td>
+					</tr>
+			</tbody>
+			</table>
+			</td>
+			<td>Row1, Column1</td>
+			</tr>
+		</tbody>
+		</table>
+	</body>
+</head>
+</html>		

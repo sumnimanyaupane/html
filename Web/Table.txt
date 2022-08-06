@@ -1,0 +1,53 @@
+<html>
+<head>
+	<title>NCC</title>
+	<body>
+		<table border=1 cellspacing=0 cellpadding=5>
+		<thead>
+			<tr>
+			<th>SN</th>
+			<th>Name</th>
+			<th>Faculty</th>
+			<th>College</th>
+			<th>Address1</th>
+			<th>Address2</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+			<td>1.</td>
+			<td>Ram</td>
+			<td rowspan="2">BIM</td>
+			<td>NCC</td>
+			<td colspan="2">Baneshwor</td>
+			</tr>
+			<tr>
+			<td>2.</td>
+			<td>Hari</td>
+			<td>SDC</td>
+			<td rowspan="2">Putalisadak</td>
+			<td>Putalisadak</td>
+			</tr>
+			<tr>
+			<td>3.</td>
+			<td>Shyam</td>
+			<td>BBM</td>
+			<td>KIST</td>
+			<td>Kamalpokhari</td>
+			</tr>
+			<tr>
+			<td>4.</td>
+			<td>John</td>
+			<td rowspan="2">BBA</td>
+			<td>NCC</td>
+			<td rowspan="2" colspan="2">Baneshwor</td>
+			</tr>
+			<tr>
+			<td>5.</td>
+			<td>Shamit</td>
+			<td>KCMIT</td>
+			</tr>
+		</table>
+	</body>
+</head>
+</html>

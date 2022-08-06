@@ -1,0 +1,30 @@
+NESTED LIST
+
+
+1.Nepal
+	a. Pradesh 1
+	b. Pradesh 2
+	c. Bagmati Pradesh
+		xii. KTM
+		xiii. Lalitpur
+		xiv. Bhaktapur
+	d. Gandaki Pradesh
+2.China
+3.India
+
+
+
+
+
+<html>
+	<head>
+	<title>NCC</title>
+	<body>
+	<ol>
+	<li>Nepal</li>
+	<li>China</li>
+	<li>India</li>
+</ol>
+</body>
+</head>
+</html>

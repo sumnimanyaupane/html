@@ -1,0 +1,24 @@
+<!-- accepts character and whitespace -->
+<html>
+    <head>
+        <title>ncc</title>
+    </head>
+    <body>
+        <form type="get">
+            1.Name<input type="text" id="name"><br>
+            <input type="button" value="ok" onclick="validate()">
+        </form>
+    </body>
+    <script>
+        function validate(){
+            var name=document.getElementById("name").value;
+            var pattern=/^[a-z A-Z]+$/;
+            if(!name.match(pattern)){
+                alert("invalid name");
+            }
+            else{
+                alert("name is valid");
+            }
+        }
+    </script>
+</html>

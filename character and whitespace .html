@@ -1,0 +1,27 @@
+<!-- 1.2 wap to take string from user and validate:
+that accepts only character 
+that accepts character and whitespace
+the length must be greater than 6  -->
+<html>
+    <head>
+        <title>ncc</title>
+    </head>
+    <body>
+        <form type="get">
+            1.Name<input type="text" id="name"><br>
+            <input type="submit" value="ok" onclick="validate()">
+        </form>
+    </body>
+    <script>
+        function validate(){
+            var name=document.getElementById("name").value;
+            var pattern=/^[a-zA-Z]+$/;
+            if(!name.match(pattern)){
+                alert("invalid name");
+            }
+            else{
+                alert("name is valid");
+            }
+        }
+    </script>
+    </html>

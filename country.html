@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>ncc</title>
+    </head>
+    <body>
+        Country:  <select name ="country"  id="country">
+            <option value=" ">Please select</option>
+            <option value="nepal" >Nepal </option>
+            <option value="netharland ">Netharland</option>
+            <option value="Kubet ">Kubet</option>
+            </select><br>
+        <input type="submit" value="ok" onclick="validate()">
+        <script>
+            function validate(){
+                var country=document.getElementById("country").value;
+                if(country==" "){
+                    alert("country must be selected");
+                }
+                else {
+                alert("success");}
+            }
+        </script>
+    </body>
+</html>

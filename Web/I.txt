@@ -1,0 +1,14 @@
+<html>
+ <head>
+  <title>NCC</title>
+   <body>
+    <p>
+	<pre><b>Welcome</b>
+To
+<a href="#">Nepal</a>
+Commerce
+Campus </pre>
+	</p>
+	</body>
+	</head>
+	</html>

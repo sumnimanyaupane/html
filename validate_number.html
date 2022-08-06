@@ -1,0 +1,24 @@
+<!-- 2.1validate only number -->
+<html>
+    <head>
+        <title>ncc</title>
+    </head>
+    <body>
+        <form type="get">
+            2.Number:<input type="text" id="number"><br>
+            <input type="submit" value="ok" onclick="validate()">
+        </form>
+    </body>
+    <script>
+        function validate(){
+            var number=document.getElementById("number").value;
+            var pattern=/^[0-9]+$/;
+            if(!name.match(pattern)){
+                alert("invalid number");
+            }
+            else{
+                alert("number is valid");
+            }
+        }
+    </script>
+</html>

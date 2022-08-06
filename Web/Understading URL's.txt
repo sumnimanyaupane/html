@@ -1,0 +1,11 @@
+anchor tag <a>
+
+-> Types of directory
+Same directory ("file name")
+Sub directory (./folder name/file name)
+Parent directory (../)
+Root directory (/)
+
+
+Absolute: with full path
+Relative: specific link within a site

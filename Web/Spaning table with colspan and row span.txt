@@ -1,0 +1,46 @@
+Merging columns is colspan.
+<hr>Merging rows is rowspan.</hr>
+
+
+<html>
+	<head>
+	<title>Spanning tree with colspan and rowspan</title>
+	<body>
+	<table border=1 cellspacing=0 cellpadding=4>
+		<thead>
+			<tr>
+			<th>SN</th>
+			<th>College Name</th>
+			<th>Faculty</th>
+			<th>Address</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+			<td>1.</td>
+			<td>NCC</td>
+			<td rowspan="2">BIM</td>
+			<td>Minbhawan</td>
+			</tr>
+			<tr>
+			<td>2.</td>
+			<td rowspan="2">NCIT</td>
+			<td>Shankhamul</td>
+			</tr>
+			<tr>
+			<td>3.</td>
+			<td>BCA</td>
+			<td>Patan</td>
+			</tr>
+			<tr>
+			<td>4.</td>
+			<td>Prime</td>
+			<td>BSc CSIT</td>
+			<td>Balaju</td>
+			</tr>
+		</tbody>
+		</table>
+	</body>
+	</head>
+</html>
+			

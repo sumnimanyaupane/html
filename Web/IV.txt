@@ -1,0 +1,33 @@
+Write a HTML code to generate:
+
+10. Nepal
+9.UK
+8.China
+7.India
+6.USA
+5.
+
+
+
+
+
+<html>
+	<head>
+	<title>NCC</title>
+	<body>
+	<p>
+	<ol>
+	<li>Nepal</li>
+	<li>UK</li>
+	<li>China</li>
+	<li>India</li>
+	<li>USA</li>
+	<li>Cambodia</li>
+	<li>Pakistan</li>
+	<li>Afghanistan</li>
+	<li>SriLanka</li>
+	<li>Bhutan</li>
+</ol>
+</p>
+</body>
+</html>

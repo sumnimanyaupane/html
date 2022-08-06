@@ -1,0 +1,22 @@
+<html>
+<head>
+<title>2016</title>
+<body>
+	<fieldset>
+	<table>
+	<form action="#" method="post">
+		<tr><td>Trim Number</td><td><input type="text" name="trim"></td></tr><br>
+		<tr><td>Form Prepared By</td><td><input type="text" name="prepared"></td></tr><hr>
+		<tr><td>Dept/Division</td><td><input type="text" name="dept"></td></tr><br>
+		<tr><td>Email</td><td><input type="email" name="email"></td></tr><hr>
+		<tr><td>Visa Required</td><td><input type="radio" name="visa" id="visa"><label>YES</label></td><td><input type="radio" name="visa">NO</td></tr>
+		<tr><td>Visitor Visa Type</td><td><select name="visitor">
+			<option>Please Select</td></tr><hr></select>
+		<tr><td><input type="checkbox" name="send">Send Mail<br>
+		<tr><td><input type="submit" value="SEND"></td><td><input type="submit" value="CLEAR"></td></tr>
+	</form>
+	</table>
+	</fieldset>
+</body>
+</head>
+</html>

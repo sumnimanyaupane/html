@@ -1,0 +1,29 @@
+<html>
+<head>
+<title>NCC</title>
+</head>
+<body>
+<p>The following are the top management colleges in Nepal.</p>
+<ul>NCC</ul>
+<dl>
+<dt>NCC</dt>
+<dd>Nepal Commerce Campus</dd>
+<ul>SDC</ul>
+<ul>KCMIT</ul>
+</body>
+</html>
+
+
+What do u mean by attribute?
+Tag defining feature in html is called attribute.
+
+
+Type attributes in ul:		Type attributes in ol:
+1. Square			Alpha[Lower and upper]
+2. Circle(default)		Roman[Lower and upper]
+3. Disc				Number[default-1]
+
+Definition List
+<dl>
+<dt>Marker</dt>	(Data term)
+<dd>Description</dd>	(Data definition)
